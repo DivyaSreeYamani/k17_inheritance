@@ -12,7 +12,7 @@
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-03-28 04:01:51</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4d0dc09d0f3936406da728b8b1050e6d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Normal Change - Assess state</sys_name>
