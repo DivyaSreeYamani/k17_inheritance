@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"ends":["05d140880f9ab2406da728b8b1050e1a"],"subflows":[],"stages":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Legacy">007c2f021b020100adca1e094f0713b4</column_renderer>
+        <condition table="x_snc_k17_inherit_standard_change_proposal">state=2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>15d140880f9ab2406da728b8b1050e37,8dd100880f9ab2406da728b8b1050e35,41d140880f9ab2406da728b8b1050e1b,d5d140880f9ab2406da728b8b1050e30,9dd140880f9ab2406da728b8b1050e1d,c9d140880f9ab2406da728b8b1050e18|15d140880f9ab2406da728b8b1050e37,8dd100880f9ab2406da728b8b1050e35,41d140880f9ab2406da728b8b1050e1b,d5d140880f9ab2406da728b8b1050e30,91d140880f9ab2406da728b8b1050e39,9dd140880f9ab2406da728b8b1050e1e,05d140880f9ab2406da728b8b1050e1a|15d140880f9ab2406da728b8b1050e37,8dd100880f9ab2406da728b8b1050e35,41d140880f9ab2406da728b8b1050e1b,d5d140880f9ab2406da728b8b1050e30,91d140880f9ab2406da728b8b1050e39,d1d140880f9ab2406da728b8b1050e38</expected_sequences>
+        <expected_time>1970-01-03 00:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>15d140880f9ab2406da728b8b1050e37,8dd100880f9ab2406da728b8b1050e35,41d140880f9ab2406da728b8b1050e1b,d5d140880f9ab2406da728b8b1050e30,89d140880f9ab2406da728b8b1050e17,d5d140880f9ab2406da728b8b1050e21,05d140880f9ab2406da728b8b1050e1a|15d140880f9ab2406da728b8b1050e37,8dd100880f9ab2406da728b8b1050e35,41d140880f9ab2406da728b8b1050e1b,d5d140880f9ab2406da728b8b1050e30,9dd140880f9ab2406da728b8b1050e1d,c9d140880f9ab2406da728b8b1050e18|15d140880f9ab2406da728b8b1050e37,8dd100880f9ab2406da728b8b1050e35,41d140880f9ab2406da728b8b1050e1b,d5d140880f9ab2406da728b8b1050e30,91d140880f9ab2406da728b8b1050e39,9dd140880f9ab2406da728b8b1050e1e,05d140880f9ab2406da728b8b1050e1a|15d140880f9ab2406da728b8b1050e37,8dd100880f9ab2406da728b8b1050e35,41d140880f9ab2406da728b8b1050e1b,d5d140880f9ab2406da728b8b1050e30,91d140880f9ab2406da728b8b1050e39,d1d140880f9ab2406da728b8b1050e38</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>k17 Standard Change Proposal</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>10000</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">15d140880f9ab2406da728b8b1050e37</start>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>89d100880f9ab2406da728b8b1050e33</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:44:48</sys_updated_on>
+        <table>x_snc_k17_inherit_standard_change_proposal</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="k17 Standard Change Proposal">da78fe7f0f86b2406da728b8b1050e0a</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>k17 Standard Change Proposal</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-17 21:11:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da78fe7f0f86b2406da728b8b1050e0a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>k17 Standard Change Proposal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="K17 Inheritance Lab - Global" source="4126d0590f7936406da728b8b1050e90">4126d0590f7936406da728b8b1050e90</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="k17_inheritance">f494c8990ff536406da728b8b1050e64</sys_scope>
+        <sys_update_name>wf_workflow_da78fe7f0f86b2406da728b8b1050e0a</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-17 21:25:40</sys_updated_on>
+        <table>x_snc_k17_inherit_standard_change_proposal</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>c5d100880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>cancelled</value>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Closed Incomplete</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1050</order>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>45d100880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>closed_incomplete</value>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Complete</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>c1d100880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Approval Notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>9dd140880f9ab2406da728b8b1050e1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>831</x>
+        <y>416</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=9dd140880f9ab2406da728b8b1050e1e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>${opened_by}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Number: ${number}
+Short description: ${short_description}
+
+Standard Change Proposal ${URI_REF} ${short_description} is approved. Standard change proposal is now published under Catalog: '${catalog}' and Category: '${category}'.
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>55d140880f9ab2406da728b8b1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>99d140880f9ab2406da728b8b1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>ddd140880f9ab2406da728b8b1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Proposal ${number} ${short_description} has been approved</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>${opened_by}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>ddd140880f9ab2406da728b8b1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Proposal ${number} ${short_description} has been approved</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Number: ${number}
+Short description: ${short_description}
+
+Standard Change Proposal ${URI_REF} ${short_description} is approved. Standard change proposal is now published under Catalog: '${catalog}' and Category: '${category}'.
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>55d140880f9ab2406da728b8b1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1e</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>99d140880f9ab2406da728b8b1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval Notification">9dd140880f9ab2406da728b8b1050e1e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Approval Requested</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>8dd100880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>179</x>
+        <y>21</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8dd100880f9ab2406da728b8b1050e35"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8dd100880f9ab2406da728b8b1050e35</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>81d140880f9ab2406da728b8b1050e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>current.approval = 'requested';
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8dd100880f9ab2406da728b8b1050e35</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>81d140880f9ab2406da728b8b1050e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>current.approval = 'requested';
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval Requested">8dd100880f9ab2406da728b8b1050e35</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>01d140880f9ab2406da728b8b1050e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=15d140880f9ab2406da728b8b1050e37"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">15d140880f9ab2406da728b8b1050e37</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>1dd140880f9ab2406da728b8b1050e37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - Group">354e911f0a0a029a00e6a0e6ad74206f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Change Manager Group Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d5d140880f9ab2406da728b8b1050e30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>494</x>
+        <y>194</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d5d140880f9ab2406da728b8b1050e30"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>19d140880f9ab2406da728b8b1050e33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>1dd140880f9ab2406da728b8b1050e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>51d140880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>any_each</value>
+        <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>55d140880f9ab2406da728b8b1050e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.
+//
+// This script is responsible for setting the approval state for each group that is part of this approval activity before
+// returning the overall approval state for all of the group(s).
+//
+// When called, the following variables are available to the script:
+//
+//    Overall for all of the groups that are part of this approval activity:
+//        counts.total = total number of groups that are part of this approval
+//        counts.approved = # of groups that approved so far
+//        counts.rejected = # of groups that rejected so far
+//        counts.requested = # of groups that are pending approval
+//        counts.not_requested = # of groups that are not pending approval
+//        counts.not_required = # of groups that approval is not required
+//
+//    And for each group:
+//        groups[group_id].total = total number of users that are part of this group's approval
+//        groups[group_id].approved = # of users that approved so far
+//        groups[group_id].rejected = # of users that rejected so far
+//        groups[group_id].requested = # of users that are pending approval
+//        groups[group_id].not_requested = # of users that are not pending approval
+//        groups[group_id].not_required = # of users that approval is not required
+//
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state
+//
+//        Note: Iterate the groups using:
+//            for (var id in groups) {
+//                 var group = groups[id];
+//                 ...  group.total ...
+//            }
+</value>
+        <variable display_value="">069e81530a0a0b264289c1e23fe52558</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait
+answer = 0;</value>
+        <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>5dd140880f9ab2406da728b8b1050e33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>91d140880f9ab2406da728b8b1050e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>95d140880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.
+//
+// For example:
+//       var answer = [];
+//       answer.push('id1');
+//       answer.push('id2');
+</value>
+        <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>99d140880f9ab2406da728b8b1050e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>9dd140880f9ab2406da728b8b1050e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d1d140880f9ab2406da728b8b1050e33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>1970-01-03 00:00:00</value>
+        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d5d140880f9ab2406da728b8b1050e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d9d140880f9ab2406da728b8b1050e30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d9d140880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>ddd140880f9ab2406da728b8b1050e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>a715cd759f2002002920bde8132e7018</value>
+        <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>19d140880f9ab2406da728b8b1050e33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">1bd4c8c00a0a0b26635e191420fd194c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>51d140880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>any_each</value>
+        <variable display_value="">0698d53c0a0a0b2627f7cf654de211b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d9d140880f9ab2406da728b8b1050e30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a89323c0a80066046c6c1fd0df6475</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d9d140880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a29434c0a80066575097078b386f8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ac8459c0a8006628d8903b8b2e579b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>ddd140880f9ab2406da728b8b1050e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>a715cd759f2002002920bde8132e7018</value>
+        <variable display_value="">c35dc8950a0a0ba96248a70936f964a8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>9dd140880f9ab2406da728b8b1050e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">4fc0fabe0a6a803f7f0af58179445dbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>1dd140880f9ab2406da728b8b1050e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8aaecf5c0a8006617527ddc62f2d668</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d5d140880f9ab2406da728b8b1050e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a8abc43ac0a800664b9b89a9f3f2c7a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d1d140880f9ab2406da728b8b1050e33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>1970-01-03 00:00:00</value>
+        <variable display_value="">a8a5b2aac0a80066020adf74bd35c283</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>91d140880f9ab2406da728b8b1050e34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8a63d44c0a8006617a1a568e6ee0d9e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>99d140880f9ab2406da728b8b1050e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ad144ec0a8006638755cb3662df229</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>5dd140880f9ab2406da728b8b1050e33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a8a7bc7dc0a800666777a9bd9b84fef8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">a8ae0641c0a800664ae7b95978e88d56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait
+answer = 0;</value>
+        <variable display_value="">a8a16056c0a800660449c1bbc94d797f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>55d140880f9ab2406da728b8b1050e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.
+//
+// This script is responsible for setting the approval state for each group that is part of this approval activity before
+// returning the overall approval state for all of the group(s).
+//
+// When called, the following variables are available to the script:
+//
+//    Overall for all of the groups that are part of this approval activity:
+//        counts.total = total number of groups that are part of this approval
+//        counts.approved = # of groups that approved so far
+//        counts.rejected = # of groups that rejected so far
+//        counts.requested = # of groups that are pending approval
+//        counts.not_requested = # of groups that are not pending approval
+//        counts.not_required = # of groups that approval is not required
+//
+//    And for each group:
+//        groups[group_id].total = total number of users that are part of this group's approval
+//        groups[group_id].approved = # of users that approved so far
+//        groups[group_id].rejected = # of users that rejected so far
+//        groups[group_id].requested = # of users that are pending approval
+//        groups[group_id].not_requested = # of users that are not pending approval
+//        groups[group_id].not_required = # of users that approval is not required
+//
+//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state
+//
+//        Note: Iterate the groups using:
+//            for (var id in groups) {
+//                 var group = groups[id];
+//                 ...  group.total ...
+//            }
+</value>
+        <variable display_value="">069e81530a0a0b264289c1e23fe52558</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">069bd78c0a0a0b267fa35f3d77e02a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e30</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>95d140880f9ab2406da728b8b1050e35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of group ids or an array of group ids to add as approvers.
+//
+// For example:
+//       var answer = [];
+//       answer.push('id1');
+//       answer.push('id2');
+</value>
+        <variable display_value="">069c53740a0a0b260e35ee0ead2dbbcc</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Change Manager Group Approval">d5d140880f9ab2406da728b8b1050e30</activity>
+        <condition>activity.result == 'approved'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>1</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d9d140880f9ab2406da728b8b1050e36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Change Manager Group Approval">d5d140880f9ab2406da728b8b1050e30</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>2</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Change Manager Group Approval">d5d140880f9ab2406da728b8b1050e30</activity>
+        <condition>activity.result == 'skipped'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Skipped</name>
+        <order>3</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>5dd140880f9ab2406da728b8b1050e36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>05d140880f9ab2406da728b8b1050e1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>837</x>
+        <y>540</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=05d140880f9ab2406da728b8b1050e1a"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Move State to New</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>9dd140880f9ab2406da728b8b1050e1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>173</x>
+        <y>351</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=9dd140880f9ab2406da728b8b1050e1d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>gs.addErrorMessage(gs.getMessage('No Approver present. Please request System Administrator to configure Approvers'));
+current.state = 1;</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9dd140880f9ab2406da728b8b1050e1d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>gs.addErrorMessage(gs.getMessage('No Approver present. Please request System Administrator to configure Approvers'));
+current.state = 1;</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Move State to New">9dd140880f9ab2406da728b8b1050e1d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d5d140880f9ab2406da728b8b1050e1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Proposal created notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>41d140880f9ab2406da728b8b1050e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>485</x>
+        <y>19</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=41d140880f9ab2406da728b8b1050e1b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>05d140880f9ab2406da728b8b1050e1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Proposal ${number} ${short_description} has been submitted</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>45d140880f9ab2406da728b8b1050e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>${opened_by}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>49d140880f9ab2406da728b8b1050e1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Number: ${number} 
+Opened by: ${opened_by}
+Short description: ${short_description}
+
+Click here to view Standard Change Proposal:  ${URI_REF}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>89d140880f9ab2406da728b8b1050e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>8dd140880f9ab2406da728b8b1050e1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>cdd140880f9ab2406da728b8b1050e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>45d140880f9ab2406da728b8b1050e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>${opened_by}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>8dd140880f9ab2406da728b8b1050e1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>05d140880f9ab2406da728b8b1050e1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Proposal ${number} ${short_description} has been submitted</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>49d140880f9ab2406da728b8b1050e1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Number: ${number} 
+Opened by: ${opened_by}
+Short description: ${short_description}
+
+Click here to view Standard Change Proposal:  ${URI_REF}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>89d140880f9ab2406da728b8b1050e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>41d140880f9ab2406da728b8b1050e1b</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>cdd140880f9ab2406da728b8b1050e1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Proposal created notification">41d140880f9ab2406da728b8b1050e1b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>c5d140880f9ab2406da728b8b1050e1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Proposal Rejected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>89d140880f9ab2406da728b8b1050e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>623</x>
+        <y>416</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=89d140880f9ab2406da728b8b1050e17"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>89d140880f9ab2406da728b8b1050e17</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>0dd140880f9ab2406da728b8b1050e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>current.approval = 'rejected';
+
+// Stamping the rejection comment to proposal record
+var app = new GlideRecord('sysapproval_approver');
+app.addQuery('sysapproval', current.getUniqueValue());
+app.addQuery('state', 'rejected');
+app.orderByDesc('sys_updated_on');
+app.setLimit(1);
+app.query();
+
+if(app.next()){
+	var commentsGR = new GlideRecord('sys_journal_field');
+	commentsGR.addQuery('element_id', app.getUniqueValue());
+	commentsGR.orderByDesc('sys_created_on');
+	commentsGR.setLimit(1);
+	commentsGR.query();
+	if(commentsGR.next())
+		current.comments = commentsGR.getValue('value');
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>89d140880f9ab2406da728b8b1050e17</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>0dd140880f9ab2406da728b8b1050e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>current.approval = 'rejected';
+
+// Stamping the rejection comment to proposal record
+var app = new GlideRecord('sysapproval_approver');
+app.addQuery('sysapproval', current.getUniqueValue());
+app.addQuery('state', 'rejected');
+app.orderByDesc('sys_updated_on');
+app.setLimit(1);
+app.query();
+
+if(app.next()){
+	var commentsGR = new GlideRecord('sys_journal_field');
+	commentsGR.addQuery('element_id', app.getUniqueValue());
+	commentsGR.orderByDesc('sys_created_on');
+	commentsGR.setLimit(1);
+	commentsGR.query();
+	if(commentsGR.next())
+		current.comments = commentsGR.getValue('value');
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Proposal Rejected">89d140880f9ab2406da728b8b1050e17</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>c1d140880f9ab2406da728b8b1050e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Rejection Notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d5d140880f9ab2406da728b8b1050e21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>631</x>
+        <y>507</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d5d140880f9ab2406da728b8b1050e21"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Number: ${number}
+Short description: ${short_description} has been rejected
+
+Click here to view Standard Change Proposal: ${URI_REF}
+
+Comments: ${comments_and_work_notes}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>${opened_by}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>9dd140880f9ab2406da728b8b1050e21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d1d140880f9ab2406da728b8b1050e22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>ddd140880f9ab2406da728b8b1050e2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Proposal ${number} ${short_description} has been rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>${opened_by}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>ddd140880f9ab2406da728b8b1050e2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Proposal ${number} ${short_description} has been rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>Number: ${number}
+Short description: ${short_description} has been rejected
+
+Click here to view Standard Change Proposal: ${URI_REF}
+
+Comments: ${comments_and_work_notes}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>9dd140880f9ab2406da728b8b1050e21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d5d140880f9ab2406da728b8b1050e21</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d1d140880f9ab2406da728b8b1050e22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Rejection Notification">d5d140880f9ab2406da728b8b1050e21</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Rollback To">bd5711773b230000dada82c09ccf3d0d</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Rollback to Group Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d1d140880f9ab2406da728b8b1050e38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>1098</x>
+        <y>273</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d1d140880f9ab2406da728b8b1050e38"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Rollback to Group Approval">d1d140880f9ab2406da728b8b1050e38</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d9d140880f9ab2406da728b8b1050e38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Validate Categorisation</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>91d140880f9ab2406da728b8b1050e39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:43:02</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>823</x>
+        <y>240</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=91d140880f9ab2406da728b8b1050e39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>91d140880f9ab2406da728b8b1050e39</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:43:02</sys_updated_on>
+        <value>//var util = new StdChangeUtils();&#13;
+//var validationStatus = util.validateCategorisation(current);&#13;
+var helper = new global.StdChangeUtils_Helper();&#13;
+var validationStatus = helper.validateCategorisation(current);&#13;
+activity.answer = validationStatus;&#13;
+if (validationStatus == 'failure') {&#13;
+	var link = '&lt;a href="std_change_proposal.do?sys_id=' + current.getUniqueValue() +&#13;
+		'"&gt;' + current.number + '&lt;/a&gt;';&#13;
+	gs.addErrorMessage(gs.getMessage(&#13;
+		'Cannot approve the Proposal {0}, validation has failed.', link));&#13;
+	current.approval = 'requested';&#13;
+} else if (validationStatus == 'success') {&#13;
+	current.approval = 'approved';&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>91d140880f9ab2406da728b8b1050e39</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:43:02</sys_updated_on>
+        <value>//var util = new StdChangeUtils();&#13;
+//var validationStatus = util.validateCategorisation(current);&#13;
+var helper = new global.StdChangeUtils_Helper();&#13;
+var validationStatus = helper.validateCategorisation(current);&#13;
+activity.answer = validationStatus;&#13;
+if (validationStatus == 'failure') {&#13;
+	var link = '&lt;a href="std_change_proposal.do?sys_id=' + current.getUniqueValue() +&#13;
+		'"&gt;' + current.number + '&lt;/a&gt;';&#13;
+	gs.addErrorMessage(gs.getMessage(&#13;
+		'Cannot approve the Proposal {0}, validation has failed.', link));&#13;
+	current.approval = 'requested';&#13;
+} else if (validationStatus == 'success') {&#13;
+	current.approval = 'approved';&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Validate Categorisation">91d140880f9ab2406da728b8b1050e39</activity>
+        <condition>activity.answer == "failure"</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Failure</name>
+        <order>1</order>
+        <short_description>Validation of proposal has failed.</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>5dd140880f9ab2406da728b8b1050e39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Validate Categorisation">91d140880f9ab2406da728b8b1050e39</activity>
+        <condition>activity.answer=="success"</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Success</name>
+        <order>2</order>
+        <short_description>Validation of proposal has succeeded</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d9d140880f9ab2406da728b8b1050e39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Wait for state to move to 'In Progress'</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>c9d140880f9ab2406da728b8b1050e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+        <x>167</x>
+        <y>154</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c9d140880f9ab2406da728b8b1050e18"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c9d140880f9ab2406da728b8b1050e18</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>05d140880f9ab2406da728b8b1050e19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c9d140880f9ab2406da728b8b1050e18</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>cdd140880f9ab2406da728b8b1050e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
+answer = true;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c9d140880f9ab2406da728b8b1050e18</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>05d140880f9ab2406da728b8b1050e19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c9d140880f9ab2406da728b8b1050e18</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>cdd140880f9ab2406da728b8b1050e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.
+answer = true;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for state to move to 'In Progress'">c9d140880f9ab2406da728b8b1050e18</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>4dd140880f9ab2406da728b8b1050e19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d5d140880f9ab2406da728b8b1050e1e</condition>
+        <from display_value="Move State to New">9dd140880f9ab2406da728b8b1050e1d</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Wait for state to move to 'In Progress'">c9d140880f9ab2406da728b8b1050e18</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">11d140880f9ab2406da728b8b1050e21</condition>
+        <from display_value="Approval Notification">9dd140880f9ab2406da728b8b1050e1e</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>11d140880f9ab2406da728b8b1050e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="End">05d140880f9ab2406da728b8b1050e1a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d9d140880f9ab2406da728b8b1050e38</condition>
+        <from display_value="Rollback to Group Approval">d1d140880f9ab2406da728b8b1050e38</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>15d140880f9ab2406da728b8b1050e3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Change Manager Group Approval">d5d140880f9ab2406da728b8b1050e30</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c5d140880f9ab2406da728b8b1050e1d</condition>
+        <from display_value="Proposal created notification">41d140880f9ab2406da728b8b1050e1b</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>1dd140880f9ab2406da728b8b1050e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Change Manager Group Approval">d5d140880f9ab2406da728b8b1050e30</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Success">d9d140880f9ab2406da728b8b1050e39</condition>
+        <from display_value="Validate Categorisation">91d140880f9ab2406da728b8b1050e39</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>51d140880f9ab2406da728b8b1050e3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Approval Notification">9dd140880f9ab2406da728b8b1050e1e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">59d140880f9ab2406da728b8b1050e36</condition>
+        <from display_value="Change Manager Group Approval">d5d140880f9ab2406da728b8b1050e30</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>55d140880f9ab2406da728b8b1050e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Proposal Rejected">89d140880f9ab2406da728b8b1050e17</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">11d140880f9ab2406da728b8b1050e30</condition>
+        <from display_value="Rejection Notification">d5d140880f9ab2406da728b8b1050e21</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>59d140880f9ab2406da728b8b1050e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="End">05d140880f9ab2406da728b8b1050e1a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c1d140880f9ab2406da728b8b1050e18</condition>
+        <from display_value="Proposal Rejected">89d140880f9ab2406da728b8b1050e17</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>5dd140880f9ab2406da728b8b1050e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Rejection Notification">d5d140880f9ab2406da728b8b1050e21</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4dd140880f9ab2406da728b8b1050e19</condition>
+        <from display_value="Wait for state to move to 'In Progress'">c9d140880f9ab2406da728b8b1050e18</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>95d140880f9ab2406da728b8b1050e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Proposal created notification">41d140880f9ab2406da728b8b1050e1b</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">01d140880f9ab2406da728b8b1050e17</condition>
+        <from display_value="Approval Requested">8dd100880f9ab2406da728b8b1050e35</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>99d140880f9ab2406da728b8b1050e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Proposal created notification">41d140880f9ab2406da728b8b1050e1b</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Skipped">5dd140880f9ab2406da728b8b1050e36</condition>
+        <from display_value="Change Manager Group Approval">d5d140880f9ab2406da728b8b1050e30</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d1d140880f9ab2406da728b8b1050e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Move State to New">9dd140880f9ab2406da728b8b1050e1d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1dd140880f9ab2406da728b8b1050e37</condition>
+        <from display_value="Begin">15d140880f9ab2406da728b8b1050e37</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d1d140880f9ab2406da728b8b1050e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Approval Requested">8dd100880f9ab2406da728b8b1050e35</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">d9d140880f9ab2406da728b8b1050e36</condition>
+        <from display_value="Change Manager Group Approval">d5d140880f9ab2406da728b8b1050e30</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>d5d140880f9ab2406da728b8b1050e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Validate Categorisation">91d140880f9ab2406da728b8b1050e39</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Failure">5dd140880f9ab2406da728b8b1050e39</condition>
+        <from display_value="Validate Categorisation">91d140880f9ab2406da728b8b1050e39</from>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>ddd140880f9ab2406da728b8b1050e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <to display_value="Rollback to Group Approval">d1d140880f9ab2406da728b8b1050e38</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 02:31:58</sys_created_on>
+        <sys_id>8dd100880f9ab2406da728b8b1050e33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-18 02:31:58</sys_updated_on>
+        <workflow_version display_value="k17 Standard Change Proposal">89d100880f9ab2406da728b8b1050e33</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=da78fe7f0f86b2406da728b8b1050e0a^sys_id!=89d100880f9ab2406da728b8b1050e33">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

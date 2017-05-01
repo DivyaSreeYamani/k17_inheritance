@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_k17_inherit.StdChangeUtils</api_name>
+        <client_callable>true</client_callable>
+        <description>Helper script to call Class of StdChangeUtilsSNC like functions.</description>
+        <name>StdChangeUtils</name>
+        <script><![CDATA[var StdChangeUtils = Class.create();
+StdChangeUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	APP_SCOPE: 'f494c8990ff536406da728b8b1050e64', //K17
+	TABLE_NAME_PROPERTIES: 'std_change_properties',
+	helper: new global.StdChangeUtils_Helper(),
+	
+	initialize: function(request, responseXML, gc) {
+		//StdChangeUtilsSNC.prototype.initialize.call(this, request, responseXML, gc);
+	},
+
+	/***************************
+	 *
+	 *Add customer changes below
+	 *
+	 ****************************/
+	_getPropertyValue: function(propertyName) {
+		if (!this._propGr) {
+			var gr = new GlideRecord(this.TABLE_NAME_PROPERTIES);
+			// Using number instead of sysid since if ever this row
+			// gets deleted then a row with same number can be
+			// recreated. But row with same sysid is impossible to create.
+			//gr.addQuery('internal_name', this.PROP_ROW_KEY);
+			gr.addQuery('sys_scope',this.APP_SCOPE);
+			gr.query();
+			if (!gr.next()) {
+				this.log.logErr('Property row not found!');
+				return;
+			}
+			this._propGr = gr;
+		}
+		var returnVal = this._propGr.getValue(propertyName);
+		if (returnVal == null) {
+			returnVal = '';
+		}
+		return this.helper.j2js(returnVal);
+	},
+	getValue: function(property) {
+		return this._getPropertyValue(property);
+	},
+
+    type: 'StdChangeUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-17 05:54:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ea86e3a70f0e72406da728b8b1050e16</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>StdChangeUtils</sys_name>
+        <sys_package display_value="k17_inheritance" source="x_snc_k17_inherit">f494c8990ff536406da728b8b1050e64</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="k17_inheritance">f494c8990ff536406da728b8b1050e64</sys_scope>
+        <sys_update_name>sys_script_include_ea86e3a70f0e72406da728b8b1050e16</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-17 19:31:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

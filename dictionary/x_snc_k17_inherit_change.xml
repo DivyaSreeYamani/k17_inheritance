@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="change_request" label="Change" max_length="40" name="x_snc_k17_inherit_change" type="collection"/>
+    <element extends="change_request" label="Change" max_length="40" name="x_snc_k17_inherit_change" sizeclass="3" type="collection"/>
 </database>

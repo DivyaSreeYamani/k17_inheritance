@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="std_change_properties">
+    <std_change_properties action="INSERT_OR_UPDATE">
+        <catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</catalog>
+        <category display_value="Standard Changes">b0fdfb01932002009ca87a75e57ffbe9</category>
+        <default_values>short_description=Test for K17 demo^description=Describe what you plan to do^implementation_plan=List the steps in order of completion that will be worked through when implementing this change.&#13;
+&#13;
+Note who will perform each step and whether there are dependencies between steps.^backout_plan=Describe the steps you will take to revert the change to its pre-implementation state.&#13;
+&#13;
+At what point during the implementation will you take the decision to backout your change?&#13;
+&#13;
+Does your change window include time to backout if you need to?^test_plan=Explain what testing you have done or will do prior to implementation that gives you confidence this change will be successful.&#13;
+&#13;
+Describe the tests that will be carried out after implementation to confirm that the change has been successful.^EQ</default_values>
+        <fields_to_copy>assignment_group,backout_plan,category,description,justification,implementation_plan,short_description,test_plan</fields_to_copy>
+        <internal_name>k17</internal_name>
+        <mandatory_fields>short_description,description,implementation_plan,backout_plan,test_plan</mandatory_fields>
+        <readonly_fields>description,backout_plan,test_plan,implementation_plan,short_description</readonly_fields>
+        <restricted_fields>risk,active,approval,approval_history,approval_set,close_code,close_notes,closed_at,closed_by,state,type,sys_created_on,sys_created_by,sys_domain,opened_at,opened_by,sys_updated_on,sys_updated_by,sys_mod_count</restricted_fields>
+        <short_description/>
+        <sys_class_name>std_change_properties</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-17 04:32:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0de39fe30fca72406da728b8b1050ecd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="k17_inheritance" source="x_snc_k17_inherit">f494c8990ff536406da728b8b1050e64</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="k17_inheritance">f494c8990ff536406da728b8b1050e64</sys_scope>
+        <sys_update_name>std_change_properties_0de39fe30fca72406da728b8b1050ecd</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-17 17:54:04</sys_updated_on>
+    </std_change_properties>
+</record_update>

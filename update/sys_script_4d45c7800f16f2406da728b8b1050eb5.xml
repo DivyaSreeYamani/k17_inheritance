@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>std_change_record_producer</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>K17 - override RP change table</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+gs.info('******  K17 override RP change table');
+	//get the scope of the proposal record
+	var scope = current.sys_scope;
+
+gs.info('******  scope:' + scope);
+	if(scope!='global'){
+	  //find the extended change table for the matching scope
+	  var tbl = new GlideRecord('sys_db_object');
+	  tbl.addQuery('sys_scope',scope);
+	  tbl.addQuery('super_class','e076f18c0f332200b0316d28b1050e83');//change_request
+	  tbl.query();
+	  //this could be smarter incase it's a super_class of a 
+	  // super_class / child of a child
+	  if(tbl.next()){
+		  gs.info(current.table_name);
+
+gs.info('***** ' + current.table_name + ' change to ' + tbl.name);
+		if(current.table_name != tbl.name){
+gs.info('***** new table name is ' + tbl.name);
+		  current.table_name = tbl.name;
+		  //current.update();
+		}
+	  }
+	}
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-18 16:48:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d45c7800f16f2406da728b8b1050eb5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>K17 - override RP change table</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="k17_inheritance" source="x_snc_k17_inherit">f494c8990ff536406da728b8b1050e64</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="k17_inheritance">f494c8990ff536406da728b8b1050e64</sys_scope>
+        <sys_update_name>sys_script_4d45c7800f16f2406da728b8b1050eb5</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-20 04:56:59</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d45c7800f16f2406da728b8b1050eb5"/>
+</record_update>

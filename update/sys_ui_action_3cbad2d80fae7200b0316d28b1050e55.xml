@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>k17_calc_risk</action_name>
+        <active>false</active>
+        <client>false</client>
+        <comments>Calculates risk and impact of current change request using logic in the CalculateRisk script include applied to active Risk Conditions.</comments>
+        <condition>var conds = new GlideRecord('risk_conditions');conds.addActiveQuery();conds.query();conds.hasNext() &amp;&amp; gs.hasRole('x_snc_k17_inherit.itil') &amp;&amp; gs.getProperty('glide.ui.risk_calculate_rule') == "ui_action"</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <hint>Calculate risk and impact of this change based on defined Risk Conditions</hint>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>K17 Calculate Risk</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[// This UI Action checks Risk Conditions and returns risk and impact specified by ri.risk and ri.impact
+// Labels for risk and impact are returned as ri.riskLabel and ri.impactLabel
+// Other values that are returned include Name of the rule (ri.name) and order (ri.order)
+// For validation prior to update, deactivate this UI Action and activate the Calculate Risk business rule
+
+var scr = new global.SetChangeRiskK17();
+scr.setRisk(current);
+
+current.update();
+action.setRedirectURL(current);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-05-01 18:34:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3cbad2d80fae7200b0316d28b1050e55</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>K17 Calculate Risk</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="k17_inheritance" source="x_snc_k17_inherit">f494c8990ff536406da728b8b1050e64</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="k17_inheritance">f494c8990ff536406da728b8b1050e64</sys_scope>
+        <sys_update_name>sys_ui_action_3cbad2d80fae7200b0316d28b1050e55</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-05-01 18:42:18</sys_updated_on>
+        <table>x_snc_k17_inherit_change</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

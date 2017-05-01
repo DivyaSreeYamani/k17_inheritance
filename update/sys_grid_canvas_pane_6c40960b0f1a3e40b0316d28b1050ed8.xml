@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA NPS">2440960b0f1a3e40b0316d28b1050ed2</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2015-05-29 20:09:21">5ffa37826710020005d1ff5557415aaf</portal_widget>
+        <posx>6</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2017-04-27 20:36:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6c40960b0f1a3e40b0316d28b1050ed8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2440960b0f1a3e40b0316d28b1050ed2</sys_name>
+        <sys_package display_value="k17_inheritance" source="x_snc_k17_inherit">f494c8990ff536406da728b8b1050e64</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="k17_inheritance">f494c8990ff536406da728b8b1050e64</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_6c40960b0f1a3e40b0316d28b1050ed8</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2017-04-27 20:36:02</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>
