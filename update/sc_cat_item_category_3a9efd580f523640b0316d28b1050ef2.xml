@@ -6,7 +6,7 @@
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-04-19 06:15:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3a9efd580f523640b0316d28b1050ef2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Server Standard Changes.test test test</sys_name>

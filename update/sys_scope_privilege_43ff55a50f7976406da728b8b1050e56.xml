@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-03-29 04:42:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>43ff55a50f7976406da728b8b1050e56</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>jaketest2</sys_name>

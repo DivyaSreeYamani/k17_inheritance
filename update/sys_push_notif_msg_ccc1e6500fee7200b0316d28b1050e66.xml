@@ -9,7 +9,7 @@
         <sys_class_name>sys_push_notif_msg</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-05-01 19:04:50</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ccc1e6500fee7200b0316d28b1050e66</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Change commented (unassigned)</sys_name>

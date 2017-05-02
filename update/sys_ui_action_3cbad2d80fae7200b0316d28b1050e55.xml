@@ -38,7 +38,7 @@ action.setRedirectURL(current);]]></script>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-05-01 18:34:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3cbad2d80fae7200b0316d28b1050e55</sys_id>

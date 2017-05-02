@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="std_change_proposal" label="Standard Change Proposal" max_length="40" name="x_snc_k17_inherit_standard_change_proposal" sizeclass="14" type="collection"/>
+    <element extends="std_change_proposal" label="Standard Change Proposal" max_length="40" name="x_snc_k17_inherit_standard_change_proposal" type="collection"/>
 </database>

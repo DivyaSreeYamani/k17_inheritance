@@ -29,11 +29,11 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-gs.info('******  K17 override RP change table');
+//gs.info('******  K17 override RP change table');
 	//get the scope of the proposal record
 	var scope = current.sys_scope;
 
-gs.info('******  scope:' + scope);
+//gs.info('******  scope:' + scope);
 	if(scope!='global'){
 	  //find the extended change table for the matching scope
 	  var tbl = new GlideRecord('sys_db_object');
@@ -45,9 +45,9 @@ gs.info('******  scope:' + scope);
 	  if(tbl.next()){
 		  gs.info(current.table_name);
 
-gs.info('***** ' + current.table_name + ' change to ' + tbl.name);
+//gs.info('***** ' + current.table_name + ' change to ' + tbl.name);
 		if(current.table_name != tbl.name){
-gs.info('***** new table name is ' + tbl.name);
+//gs.info('***** new table name is ' + tbl.name);
 		  current.table_name = tbl.name;
 		  //current.update();
 		}
@@ -64,7 +64,7 @@ gs.info('***** new table name is ' + tbl.name);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4d45c7800f16f2406da728b8b1050eb5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>K17 - override RP change table</sys_name>
         <sys_overrides/>
         <sys_package display_value="k17_inheritance" source="x_snc_k17_inherit">f494c8990ff536406da728b8b1050e64</sys_package>
@@ -73,7 +73,7 @@ gs.info('***** new table name is ' + tbl.name);
         <sys_scope display_value="k17_inheritance">f494c8990ff536406da728b8b1050e64</sys_scope>
         <sys_update_name>sys_script_4d45c7800f16f2406da728b8b1050eb5</sys_update_name>
         <sys_updated_by>jake.burman</sys_updated_by>
-        <sys_updated_on>2017-04-20 04:56:59</sys_updated_on>
+        <sys_updated_on>2017-05-02 15:15:23</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

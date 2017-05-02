@@ -8,7 +8,7 @@
         <category display_value="Server Standard Changes">b3ecbbbf47700200e90d87e8dee49081</category>
         <closed_change_count>0</closed_change_count>
         <cost>0</cost>
-        <current_version display_value="test test test 3 - 1">27043a600f127640b0316d28b1050ed0</current_version>
+        <current_version display_value="">27043a600f127640b0316d28b1050ed0</current_version>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
@@ -57,7 +57,7 @@ GlideSysAttachment.copy("std_change_record_producer", "9f043a600f127640b0316d28b
         <sys_class_name>std_change_record_producer</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-04-20 04:47:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9f043a600f127640b0316d28b1050ec3</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>test test test 3</sys_name>

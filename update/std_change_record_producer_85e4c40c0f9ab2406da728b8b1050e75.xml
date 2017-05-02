@@ -8,7 +8,7 @@
         <category display_value="Template Management">00728916937002002dcef157b67ffb6d</category>
         <closed_change_count>0</closed_change_count>
         <cost>0</cost>
-        <current_version display_value="k17 test - 2">a507408c0f9ab2406da728b8b1050e0b</current_version>
+        <current_version display_value="">a507408c0f9ab2406da728b8b1050e0b</current_version>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
@@ -57,7 +57,7 @@ GlideSysAttachment.copy("std_change_record_producer", "85e4c40c0f9ab2406da728b8b
         <sys_class_name>std_change_record_producer</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-04-18 02:45:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>85e4c40c0f9ab2406da728b8b1050e75</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>k17 test</sys_name>

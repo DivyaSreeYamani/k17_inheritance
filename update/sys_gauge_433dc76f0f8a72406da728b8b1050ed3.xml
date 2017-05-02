@@ -18,7 +18,7 @@
         <sys_class_name>sys_gauge</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-04-17 04:03:42</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>433dc76f0f8a72406da728b8b1050ed3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Critical Changes Open</sys_name>

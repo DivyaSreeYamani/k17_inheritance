@@ -15,7 +15,7 @@
         <sys_class_name>std_change_template</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-04-20 04:47:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>db043a600f127640b0316d28b1050ec1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>test test test 3</sys_name>
@@ -36,7 +36,7 @@ At what point during the implementation will you take the decision to backout yo
 Does your change window include time to backout if you need to?^test_plan=Explain what testing you have done or will do prior to implementation that gives you confidence this change will be successful.&#13;
 &#13;
 Describe the tests that will be carried out after implementation to confirm that the change has been successful.^EQ</template>
-        <user display_value="Jake Burman">b35cfca90fbf66006da728b8b1050eb7</user>
+        <user display_value="Jake Burman">57b8bb224f84b64006cf3cb28110c7ad</user>
         <view/>
     </std_change_template>
 </record_update>

@@ -17,7 +17,7 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Change Request" name="change_request">e076f18c0f332200b0316d28b1050e83</super_class>
+        <super_class display_value="Change Request" name="change_request">2695f18c4f332200e8d1fc728110c77b</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-03-28 03:41:35</sys_created_on>

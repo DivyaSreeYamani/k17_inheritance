@@ -88,7 +88,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-04-13 23:13:41</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e51e66220f0abe006da728b8b1050ecf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Changes Awaiting Approval for More Than 30 Days</sys_name>

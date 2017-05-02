@@ -22,7 +22,7 @@
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-03-28 05:37:05</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>05c2a4550fb936406da728b8b1050ef5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Standard Change</sys_name>

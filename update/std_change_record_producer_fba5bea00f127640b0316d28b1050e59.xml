@@ -54,7 +54,7 @@
         <sys_class_name>std_change_record_producer</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-04-20 04:54:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>fba5bea00f127640b0316d28b1050e59</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>test test test 4</sys_name>

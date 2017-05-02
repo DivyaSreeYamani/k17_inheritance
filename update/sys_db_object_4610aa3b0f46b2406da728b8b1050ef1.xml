@@ -17,11 +17,11 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Standard Change Proposal" name="std_change_proposal">78aab9400fb32200b0316d28b1050efa</super_class>
+        <super_class display_value="Standard Change Proposal" name="std_change_proposal">d57af9404fb32200e8d1fc728110c767</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-04-17 19:25:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4610aa3b0f46b2406da728b8b1050ef1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Standard Change Proposal</sys_name>

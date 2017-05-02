@@ -8,7 +8,7 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-03-28 05:35:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e382a0550fb936406da728b8b1050ef0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Inheritance View</sys_name>

@@ -17,11 +17,11 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Change Task" name="change_task">5476f18c0f332200b0316d28b1050e4d</super_class>
+        <super_class display_value="Change Task" name="change_task">9695f18c4f332200e8d1fc728110c745</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-03-28 04:50:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5c0814d90f7936406da728b8b1050e1e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Change Task</sys_name>

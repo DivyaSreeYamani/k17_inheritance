@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_grid_canvas" unload_date="2017-05-01 19:45:22">
+<record_update node_type="sys_grid_canvas" unload_date="2017-05-02 15:15:59">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
         <legacy_page display_value="PA Customer experience">b1ca396bd7770200b96d45a3ce610336</legacy_page>
         <name>PA Customer experience</name>
         <sys_class_name>sys_grid_canvas</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a75ece100fae7200b0316d28b1050ef1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>PA Customer experience</sys_name>
@@ -27,7 +27,7 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>jake.burman</sys_created_by>
                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
+                <sys_customer_update>false</sys_customer_update>
                 <sys_id>275e02500fae7200b0316d28b1050e9c</sys_id>
                 <sys_mod_count>2</sys_mod_count>
                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -61,7 +61,7 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>jake.burman</sys_created_by>
                                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
+                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>275e02500fae7200b0316d28b1050e9c</sys_id>
                                 <sys_mod_count>2</sys_mod_count>
                                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -244,7 +244,7 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>jake.burman</sys_created_by>
                                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
+                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>6b5e02500fae7200b0316d28b1050e9a</sys_id>
                                 <sys_mod_count>5</sys_mod_count>
                                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -427,7 +427,7 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>jake.burman</sys_created_by>
                                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
+                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>af5e02500fae7200b0316d28b1050e98</sys_id>
                                 <sys_mod_count>2</sys_mod_count>
                                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -610,7 +610,7 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>jake.burman</sys_created_by>
                                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
+                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>e35e02500fae7200b0316d28b1050e97</sys_id>
                                 <sys_mod_count>5</sys_mod_count>
                                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -793,7 +793,7 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>jake.burman</sys_created_by>
                                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
+                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>e75e02500fae7200b0316d28b1050e95</sys_id>
                                 <sys_mod_count>4</sys_mod_count>
                                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -976,7 +976,7 @@
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>jake.burman</sys_created_by>
                                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                                <sys_customer_update>true</sys_customer_update>
+                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>ef5e02500fae7200b0316d28b1050e9d</sys_id>
                                 <sys_mod_count>5</sys_mod_count>
                                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -1147,7 +1147,7 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>jake.burman</sys_created_by>
                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
+                <sys_customer_update>false</sys_customer_update>
                 <sys_id>6b5e02500fae7200b0316d28b1050e9a</sys_id>
                 <sys_mod_count>5</sys_mod_count>
                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -1169,7 +1169,7 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>jake.burman</sys_created_by>
                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
+                <sys_customer_update>false</sys_customer_update>
                 <sys_id>af5e02500fae7200b0316d28b1050e98</sys_id>
                 <sys_mod_count>2</sys_mod_count>
                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -1191,7 +1191,7 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>jake.burman</sys_created_by>
                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
+                <sys_customer_update>false</sys_customer_update>
                 <sys_id>e35e02500fae7200b0316d28b1050e97</sys_id>
                 <sys_mod_count>5</sys_mod_count>
                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -1213,7 +1213,7 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>jake.burman</sys_created_by>
                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
+                <sys_customer_update>false</sys_customer_update>
                 <sys_id>e75e02500fae7200b0316d28b1050e95</sys_id>
                 <sys_mod_count>4</sys_mod_count>
                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>
@@ -1235,7 +1235,7 @@
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>jake.burman</sys_created_by>
                 <sys_created_on>2017-05-01 17:40:09</sys_created_on>
-                <sys_customer_update>true</sys_customer_update>
+                <sys_customer_update>false</sys_customer_update>
                 <sys_id>ef5e02500fae7200b0316d28b1050e9d</sys_id>
                 <sys_mod_count>5</sys_mod_count>
                 <sys_name>a75ece100fae7200b0316d28b1050ef1</sys_name>

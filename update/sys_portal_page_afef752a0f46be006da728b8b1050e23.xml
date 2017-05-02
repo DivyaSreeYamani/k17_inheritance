@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2017-05-01 19:45:22">
+<record_update node_type="sys_portal_page" unload_date="2017-05-02 15:16:00">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_overview">1a656051d7030200eaae68150e610399</layout>
         <order/>
@@ -24,7 +24,7 @@
         <sys_updated_by>jake.burman</sys_updated_by>
         <sys_updated_on>2017-04-13 20:56:07</sys_updated_on>
         <title>My  Service Desk - Chat</title>
-        <user display_value="Jake Burman">b35cfca90fbf66006da728b8b1050eb7</user>
+        <user display_value="Jake Burman">57b8bb224f84b64006cf3cb28110c7ad</user>
         <view/>
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">

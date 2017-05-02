@@ -50,14 +50,14 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>jake.burman</sys_created_by>
         <sys_created_on>2017-04-17 21:11:28</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>da78fe7f0f86b2406da728b8b1050e0a</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>k17 Standard Change Proposal</sys_name>
         <sys_overrides/>
-        <sys_package display_value="K17 Inheritance Lab - Global" source="4126d0590f7936406da728b8b1050e90">4126d0590f7936406da728b8b1050e90</sys_package>
+        <sys_package display_value="k17_inheritance" source="x_snc_k17_inherit">f494c8990ff536406da728b8b1050e64</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="k17_inheritance">f494c8990ff536406da728b8b1050e64</sys_scope>
